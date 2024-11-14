@@ -1,25 +1,31 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
-
 import Home from './pages/Home';
 import About from './pages/About';
+import Header from './components/Header';
+import PrivacyPolicy from './pages/PrivacyPolicy'
 
 function App() {
+  const [searchQuery, setSearchQuery] = useState('');
+
+  const handleSearch = (query) => {
+    setSearchQuery(query);
+  };
+
   return (
     <BrowserRouter>
-     {/* comment */}
       <div className="container mt-4">
-    
+        <Header />
         <Routes>
-          <Route path='/'element={<Layout/>} >
-          <Route  index element={<Home />} /> 
-          <Route path="/about" element={<About />} />
+          <Route path="/" element={<Layout onSearch={handleSearch} />}>
+            <Route index element={<Home searchQuery={searchQuery} />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+
           </Route>
         </Routes>
       </div>
-      
-    
     </BrowserRouter>
   );
 }

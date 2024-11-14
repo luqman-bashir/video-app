@@ -2,6 +2,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import { Link } from 'react-router-dom';
+
 
 function Footer() {
   return (
@@ -14,10 +16,10 @@ function Footer() {
           <div className="col-md-4 mb-3">
             <h5>Quick Links</h5>
             <ul className="list-unstyled">
-              <li><a href="#about" className="text-white">About Us</a></li>
-              <li><a href="#services" className="text-white">Services</a></li>
-              <li><a href="#contact" className="text-white">Contact</a></li>
-              <li><a href="#privacy" className="text-white">Privacy Policy</a></li>
+            <Link to="/privacy-policy" className="text-white">
+                  Privacy Policy
+                </Link>
+           
             </ul>
           </div>
 
