@@ -126,3 +126,4 @@ Endpoint: DELETE /videos/:id
 Delete a video by ID.
 
 ## License
+[MIT LICENSE](https://github.com/luqman-bashir/video-app/blob/master/LICENSE.MD)
