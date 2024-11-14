@@ -29,15 +29,15 @@ function Footer() {
             <a href="https://www.facebook.com" target="_blank" className="text-white mr-3" aria-label="Facebook" rel="noopener noreferrer">
               <i className="fab fa-facebook"></i> Facebook
             </a>
-            <br />
+            
             <a href="https://www.twitter.com" target="_blank" className="text-white mr-3" aria-label="Twitter" rel="noopener noreferrer">
               <i className="fab fa-twitter"></i> Twitter
             </a>
-            <br />
+            
             <a href="https://www.instagram.com" target="_blank" className="text-white" aria-label="Instagram" rel="noopener noreferrer">
               <i className="fab fa-instagram"></i> Instagram
             </a>
-            <br />
+            
           </div>
         </div>
         <div className="text-center mt-3">

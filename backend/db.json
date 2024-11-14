@@ -14,17 +14,10 @@
       "id": "5e6f"
     },
     {
-      "title": "mosh",
-      "description": "javascript",
-      "url": "https://www.youtube.com/watch?v=W6NZfCO5SIk",
-      "id": "b7f2"
-    },
-    {
-      "id": "cca9",
       "title": "react",
-      "description": "web dev",
+      "description": "web development",
       "url": "https://www.youtube.com/watch?v=Rh3tobg7hEo",
-      "thumbnail": "https://img.youtube.com/vi/Rh3tobg7hEo/0.jpg"
+      "id": "cca9"
     },
     {
       "id": "2a58",
@@ -46,6 +39,34 @@
       "description": "TypeScript vs JavaScript in 2024 - Difference EXPLAINED",
       "url": "https://www.youtube.com/watch?v=HCXPJmtV47I",
       "thumbnail": "https://img.youtube.com/vi/HCXPJmtV47I/hqdefault.jpg"
+    },
+    {
+      "id": "c376",
+      "title": "HTML",
+      "description": "HTML Tutorial for Beginners",
+      "url": "https://www.youtube.com/watch?v=FQdaUv95mR8",
+      "thumbnail": "https://img.youtube.com/vi/FQdaUv95mR8/hqdefault.jpg"
+    },
+    {
+      "id": "02d0",
+      "title": "CSS",
+      "description": "Learn CSS in 20 Minutes",
+      "url": "https://www.youtube.com/watch?v=1PnVor36_40",
+      "thumbnail": "https://img.youtube.com/vi/1PnVor36_40/hqdefault.jpg"
+    },
+    {
+      "id": "ae7f",
+      "title": "JAVA",
+      "description": "Learn Java in One Video - 15-minute Crash Course",
+      "url": "https://www.youtube.com/watch?v=drQK8ciCAjY",
+      "thumbnail": "https://img.youtube.com/vi/drQK8ciCAjY/hqdefault.jpg"
+    },
+    {
+      "id": "1e0c",
+      "title": "React",
+      "description": "React Tutorial for Beginners",
+      "url": "https://www.youtube.com/watch?v=SqcY0GlETPk",
+      "thumbnail": "https://img.youtube.com/vi/SqcY0GlETPk/hqdefault.jpg"
     }
   ]
 }

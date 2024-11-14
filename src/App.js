@@ -15,7 +15,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="container mt-4">
+      <div className=" ms-4 me-4">
         <Header />
         <Routes>
           <Route path="/" element={<Layout onSearch={handleSearch} />}>

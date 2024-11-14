@@ -64,7 +64,7 @@ function AddVideoForm({ onSubmit, videoToEdit, resetForm }) {
             required
           />
         </div>
-        <div className="col-12 text-center">
+        <div className="col-12 text-center mb-4">
           <button type="submit" className="btn btn-primary">
             {videoToEdit ? 'Update Video' : 'Add Video'}
           </button>
