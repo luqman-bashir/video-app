@@ -10,27 +10,30 @@ function AddVideoForm({ onSubmit, videoToEdit, resetForm }) {
       setTitle(videoToEdit.title);
       setDescription(videoToEdit.description);
       setUrl(videoToEdit.url);
+    } else {
+      setTitle('');
+      setDescription('');
+      setUrl('');
     }
-  }, [videoToEdit]);
+  }, [videoToEdit, resetForm]); // Add resetForm to dependencies
 
   const handleSubmit = (e) => {
     e.preventDefault();
     const video = { title, description, url };
     if (videoToEdit) {
-      // If there is a video to edit, call the onSubmit with the updated video
-      onSubmit({ ...video, id: videoToEdit.id }); // Include the ID for update
+      // If editing, include the ID for update
+      onSubmit({ ...video, id: videoToEdit.id });
     } else {
-      // If it's a new video, call onSubmit without an ID
+      // If new video, call onSubmit without ID
       onSubmit(video);
     }
-    resetForm();  // Reset form fields after submission
+    resetForm(); // Reset form fields after submission
   };
 
   return (
     <section id="add-video" className="mt-5">
       <h2 className="text-center mb-4">{videoToEdit ? 'Edit Video' : 'Add a New Video'}</h2>
       <form onSubmit={handleSubmit} className="row g-3">
-        {/* Title Input */}
         <div className="col-md-4">
           <input
             type="text"
@@ -41,8 +44,6 @@ function AddVideoForm({ onSubmit, videoToEdit, resetForm }) {
             required
           />
         </div>
-        
-        {/* Description Input */}
         <div className="col-md-4">
           <input
             type="text"
@@ -53,8 +54,6 @@ function AddVideoForm({ onSubmit, videoToEdit, resetForm }) {
             required
           />
         </div>
-        
-        {/* URL Input */}
         <div className="col-md-4">
           <input
             type="url"
@@ -65,8 +64,6 @@ function AddVideoForm({ onSubmit, videoToEdit, resetForm }) {
             required
           />
         </div>
-        
-        {/* Submit Button */}
         <div className="col-12 text-center">
           <button type="submit" className="btn btn-primary">
             {videoToEdit ? 'Update Video' : 'Add Video'}

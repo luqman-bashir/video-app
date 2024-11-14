@@ -8,11 +8,10 @@
       "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg"
     },
     {
-      "id": "5e6f",
       "title": "Introduction to React",
       "description": "Getting started with React for beginners.",
       "url": "https://www.youtube.com/watch?v=dGcsHMXbSOA",
-      "thumbnail": "https://img.youtube.com/vi/dGcsHMXbSOA/0.jpg"
+      "id": "5e6f"
     },
     {
       "title": "mosh",
@@ -26,6 +25,27 @@
       "description": "web dev",
       "url": "https://www.youtube.com/watch?v=Rh3tobg7hEo",
       "thumbnail": "https://img.youtube.com/vi/Rh3tobg7hEo/0.jpg"
+    },
+    {
+      "id": "2a58",
+      "title": "Python",
+      "description": "👩‍💻 Python for Beginners Tutorial",
+      "url": "https://www.youtube.com/watch?v=b093aqAZiPU",
+      "thumbnail": "https://img.youtube.com/vi/b093aqAZiPU/hqdefault.jpg"
+    },
+    {
+      "id": "2614",
+      "title": "C++",
+      "description": "Object Oriented Programming (OOP) in C++ Course",
+      "url": "https://www.youtube.com/watch?v=wN0x9eZLix4",
+      "thumbnail": "https://img.youtube.com/vi/wN0x9eZLix4/hqdefault.jpg"
+    },
+    {
+      "id": "bfd0",
+      "title": "javascript typescript",
+      "description": "TypeScript vs JavaScript in 2024 - Difference EXPLAINED",
+      "url": "https://www.youtube.com/watch?v=HCXPJmtV47I",
+      "thumbnail": "https://img.youtube.com/vi/HCXPJmtV47I/hqdefault.jpg"
     }
   ]
 }
