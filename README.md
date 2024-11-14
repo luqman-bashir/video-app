@@ -1,70 +1,128 @@
-# Getting Started with Create React App
+# Video App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based application to manage and display educational videos. Users can add, edit, search, and delete videos. The app fetches video data from a local JSON server and displays video thumbnails generated from YouTube URLs.
 
-## Available Scripts
+## Table of Contents
+- [Project Description](#project-description)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [File Structure](#file-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [API](#api)
+- [Contributors](#contributors)
+- [License](#License)
 
-In the project directory, you can run:
+## Project Description
+Video App is designed to allow users to:
+- Add new videos with title, description, and YouTube URL.
+- Edit existing videos.
+- Search videos by title.
+- Display a list of videos with their thumbnails.
+- Delete a video.
+- Watch a video.
 
-### `npm start`
+The app interacts with a local JSON server to store and retrieve video data.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
+- **Add Video**: Users can add new educational videos by providing a title, description, and YouTube URL.
+- **Edit Video**: Users can edit existing videos.
+- **Delete Video**: Users can delete videos from the app.
+- **Search Functionality**: Users can search for videos by title.
+- **Thumbnail Generation**: Thumbnails are automatically generated for each video from the provided YouTube URL.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
+- **React**: Frontend JavaScript library for building the user interface.
+- **React Router**: For navigating between pages.
+- **React Toastify**: For displaying success and error notifications.
+- **Bootstrap**: For styling and responsive design.
+- **FontAwesome**: For social media icons in the footer.
+- **JSON Server**: For simulating a backend API to store video data.
 
-### `npm test`
+## File Structure
+/video-app
+│
+├── /public
+│   └── index.html                     # Main HTML file
+│
+├── /server
+│   └── db.json                        # Mock database for video data
+│
+├── /src
+│   ├── /components
+│   │   ├── AddVideoForm.js            # Form to add or edit videos
+│   │   ├── Footer.js                  # Footer component with links
+│   │   ├── Header.js                  # Header with the app's title and logo
+│   │   ├── Layout.js                  # Layout component for wrapping pages
+│   │   ├── NavBar.js                  # Navigation bar with search functionality
+│   │   ├── VideoCard.js               # Video card to display video details
+│   │   └── VideoList.js               # List of all videos with action buttons
+│   │
+│   ├── /pages
+│   │   ├── About.js                   # About page
+│   │   ├── Home.js                    # Home page with video management
+            privacy policy
+│   │
+│   ├── /styles
+│   │   └── App.css                    # Main CSS file for styling components
+│
+├── /assets
+│   └── Image.webp                     # Placeholder or logo image
+│
+├── package.json                       # Project dependencies and metadata
+└── README.md                          # Project documentation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
+### 1. Clone the repository
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+git clone https://github.com/yourusername/video-app.git
+cd video-app
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 2. Install dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Run the following command to install all required dependencies:
 
-### `npm run eject`
+bash
+Copy code
+npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 3. Start the development server
+You need to start the JSON server and React development server:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To start the JSON Server (mock backend):
+bash
+Copy code
+npm run server
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To start the React development server:
+bash
+Copy code
+npm start
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The React app will be available at http://localhost:3000, and the mock API at http://localhost:5000 (or whichever port your JSON Server is running on).
 
-## Learn More
+## Usage
+Home Page: Displays a list of all videos with options to search, edit, or delete a video.
+Add/Edit Video: A form to add a new video or edit an existing one, with fields for video title, URL, and description.
+Search: Use the search bar in the navbar to filter videos by title.
+Footer: Contains links or general app information.
+Navbar: user can navigate both home page and about page.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## API
+Endpoint: GET /videos
+Returns a list of all videos.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Endpoint: POST /videos
+Add a new video by providing the following data:
 
-### Code Splitting
+title (string)
+description (string)
+url (string - YouTube video URL)
+Endpoint: PUT /videos/:id
+Edit an existing video by updating its title, description, and url.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Endpoint: DELETE /videos/:id
+Delete a video by ID.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
