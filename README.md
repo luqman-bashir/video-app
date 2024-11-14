@@ -10,6 +10,7 @@ A React-based application to manage and display educational videos. Users can ad
 - [Installation](#installation)
 - [Usage](#usage)
 - [API](#api)
+- [Live server](#Live server)
 - [Contributors](#contributors)
 - [License](#License)
 
