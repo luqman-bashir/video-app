@@ -12,9 +12,9 @@ export default function About() {
         
         {/* Developer 1 */}
         <div style={{ backgroundColor: '#f8f8f8', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }}>
-          <h3 style={{ color: '#2c3e50' }}>Developer 1:Name 1</h3>
+          <h3 style={{ color: '#2c3e50' }}>Developer 1:Hamdi Aden</h3>
           <p style={{ color: '#555' }}>
-          Name 1 is a frontend specialist who implemented the user interface and core interactions of the app. Focusing on a seamless user experience, Name 1 used React components and Bootstrap styling to create an intuitive and accessible design.
+          He is a frontend specialist who implemented the user interface and core interactions of the app. Focusing on a seamless user experience, Name 1 used React components and Bootstrap styling to create an intuitive and accessible design.
           </p>
         </div>
 
@@ -28,9 +28,9 @@ export default function About() {
 
         {/* Developer 3 */}
         <div style={{ backgroundColor: '#f8f8f8', padding: '1.5rem', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)' }}>
-          <h3 style={{ color: '#2c3e50' }}>Developer 3: Name 3</h3>
+          <h3 style={{ color: '#2c3e50' }}>Developer 3: Faith njau</h3>
           <p style={{ color: '#555' }}>
-          Name 3 focused on integrating video fetching and management functionalities, including the search and edit features. Name 3's attention to detail and problem-solving skills helped ensure each feature was fully functional and easy to use.
+          she focused on integrating video fetching and management functionalities, including the search and edit features. Name 3's attention to detail and problem-solving skills helped ensure each feature was fully functional and easy to use.
           </p>
         </div>
       </div>
