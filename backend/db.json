@@ -8,25 +8,22 @@
       "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg"
     },
     {
-<<<<<<< HEAD
-=======
+      "id": "5e6f",
       "title": "Introduction to Reacts",
       "description": "Getting started with React for beginners.",
-      "url": "https://www.youtube.com/watch?v=dGcsHMXbSOA",
-      "id": "5e6f"
+      "url": "https://www.youtube.com/watch?v=dGcsHMXbSOA"
     },
     {
->>>>>>> e32356448e23adaf73e6869d2cbe36505983a2bb
-      "title": "react",
-      "description": "web development",
-      "url": "https://www.youtube.com/watch?v=Rh3tobg7hEo",
-      "id": "cca9"
+      "id": "cca9",
+      "title": "React",
+      "description": "Web development",
+      "url": "https://www.youtube.com/watch?v=Rh3tobg7hEo"
     },
     {
+      "id": "2a58",
       "title": "Python",
       "description": "👩‍💻 Python for Beginners Tutorial",
-      "url": "https://www.youtube.com/watch?v=b093aqAZiPU",
-      "id": "2a58"
+      "url": "https://www.youtube.com/watch?v=b093aqAZiPU"
     },
     {
       "id": "2614",
@@ -37,7 +34,7 @@
     },
     {
       "id": "bfd0",
-      "title": "javascript typescript",
+      "title": "JavaScript TypeScript",
       "description": "TypeScript vs JavaScript in 2024 - Difference EXPLAINED",
       "url": "https://www.youtube.com/watch?v=HCXPJmtV47I",
       "thumbnail": "https://img.youtube.com/vi/HCXPJmtV47I/hqdefault.jpg"
@@ -50,34 +47,31 @@
       "thumbnail": "https://img.youtube.com/vi/FQdaUv95mR8/hqdefault.jpg"
     },
     {
+      "id": "02d0",
       "title": "CSS",
       "description": "Learn CSS in 20 Minutes",
-      "url": "https://www.youtube.com/watch?v=1PnVor36_40",
-      "id": "02d0"
+      "url": "https://www.youtube.com/watch?v=1PnVor36_40"
     },
     {
       "id": "ae7f",
-      "title": "JAVA",
+      "title": "Java",
       "description": "Learn Java in One Video - 15-minute Crash Course",
       "url": "https://www.youtube.com/watch?v=drQK8ciCAjY",
       "thumbnail": "https://img.youtube.com/vi/drQK8ciCAjY/hqdefault.jpg"
     },
     {
+      "id": "1e0c",
       "title": "Reacts",
       "description": "React Tutorial for Beginners",
       "url": "https://www.youtube.com/watch?v=SqcY0GlETPk",
-<<<<<<< HEAD
-      "id": "1e0c"
-=======
       "thumbnail": "https://img.youtube.com/vi/SqcY0GlETPk/hqdefault.jpg"
     },
     {
       "id": "b67e",
-      "title": "software engineering",
+      "title": "Software Engineering",
       "description": "Fursadii aa Developer Ku Noqon Laheyd! OGAYSIIS CUSUB - Mentorship Program",
       "url": "https://www.youtube.com/watch?v=6JhBisqpod8",
       "thumbnail": "https://img.youtube.com/vi/6JhBisqpod8/hqdefault.jpg"
->>>>>>> e32356448e23adaf73e6869d2cbe36505983a2bb
     }
   ]
 }
