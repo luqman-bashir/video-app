@@ -14,10 +14,10 @@
       "url": "https://www.youtube.com/watch?v=dGcsHMXbSOA"
     },
     {
-      "id": "cca9",
       "title": "React",
       "description": "Web development",
-      "url": "https://www.youtube.com/watch?v=Rh3tobg7hEo"
+      "url": "https://www.youtube.com/watch?v=Rh3tobg7hEo",
+      "id": "cca9"
     },
     {
       "id": "2a58",
@@ -65,13 +65,6 @@
       "description": "React Tutorial for Beginners",
       "url": "https://www.youtube.com/watch?v=SqcY0GlETPk",
       "thumbnail": "https://img.youtube.com/vi/SqcY0GlETPk/hqdefault.jpg"
-    },
-    {
-      "id": "b67e",
-      "title": "Software Engineering",
-      "description": "Fursadii aa Developer Ku Noqon Laheyd! OGAYSIIS CUSUB - Mentorship Program",
-      "url": "https://www.youtube.com/watch?v=6JhBisqpod8",
-      "thumbnail": "https://img.youtube.com/vi/6JhBisqpod8/hqdefault.jpg"
     }
   ]
 }
