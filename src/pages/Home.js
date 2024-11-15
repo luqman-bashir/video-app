@@ -1,6 +1,4 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 import AddVideoForm from '../components/AddVideoForm';
 import VideoList from '../components/VideoList';
 
@@ -44,12 +42,8 @@ function Home({ searchQuery }) {
       .then(() => {
         fetchVideos();
         resetForm();
-        toast.success('Video added successfully!');
       })
-      .catch((err) => {
-        console.error('Error adding video:', err);
-        toast.error('Failed to add video');
-      });
+      .catch((err) => console.error('Error adding video:', err));
   };
 
   const handleEditVideo = (updatedVideo) => {
@@ -61,26 +55,16 @@ function Home({ searchQuery }) {
       .then(() => {
         fetchVideos();
         resetForm();
-        toast.success('Video updated successfully!');
       })
-      .catch((err) => {
-        console.error('Error updating video:', err);
-        toast.error('Failed to update video');
-      });
+      .catch((err) => console.error('Error updating video:', err));
   };
 
   const handleDeleteVideo = (videoId) => {
     fetch(`http://localhost:3000/videos/${videoId}`, {
       method: 'DELETE',
     })
-      .then(() => {
-        fetchVideos();
-        toast.success('Video deleted successfully!');
-      })
-      .catch((err) => {
-        console.error('Error deleting video:', err);
-        toast.error('Failed to delete video');
-      });
+      .then(() => fetchVideos())
+      .catch((err) => console.error('Error deleting video:', err));
   };
 
   const filteredVideos = videos.filter((video) =>
@@ -93,8 +77,6 @@ function Home({ searchQuery }) {
 
   return (
     <div>
-      {/* Toast Container for displaying notifications */}
-      <ToastContainer />
       <AddVideoForm
         onSubmit={videoToEdit ? handleEditVideo : handleAddVideo}
         videoToEdit={videoToEdit}

@@ -8,12 +8,6 @@
       "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg"
     },
     {
-      "title": "Introduction to React",
-      "description": "Getting started with React for beginners.",
-      "url": "https://www.youtube.com/watch?v=dGcsHMXbSOA",
-      "id": "5e6f"
-    },
-    {
       "title": "react",
       "description": "web development",
       "url": "https://www.youtube.com/watch?v=Rh3tobg7hEo",
@@ -47,11 +41,10 @@
       "thumbnail": "https://img.youtube.com/vi/FQdaUv95mR8/hqdefault.jpg"
     },
     {
-      "id": "02d0",
       "title": "CSS",
       "description": "Learn CSS in 20 Minutes",
       "url": "https://www.youtube.com/watch?v=1PnVor36_40",
-      "thumbnail": "https://img.youtube.com/vi/1PnVor36_40/hqdefault.jpg"
+      "id": "02d0"
     },
     {
       "id": "ae7f",
@@ -61,11 +54,10 @@
       "thumbnail": "https://img.youtube.com/vi/drQK8ciCAjY/hqdefault.jpg"
     },
     {
-      "id": "1e0c",
-      "title": "React",
+      "title": "Reacts",
       "description": "React Tutorial for Beginners",
       "url": "https://www.youtube.com/watch?v=SqcY0GlETPk",
-      "thumbnail": "https://img.youtube.com/vi/SqcY0GlETPk/hqdefault.jpg"
+      "id": "1e0c"
     }
   ]
 }
