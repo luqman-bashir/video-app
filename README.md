@@ -126,7 +126,7 @@ Edit an existing video by updating its title, description, and url.
 Endpoint: DELETE /videos/:id
 Delete a video by ID.
 ## Live server
-Watch the server live [video app](https://video-app-3b36e3.netlify.app/)
+Watch the server live [video app](https://viseo-app-83893c.netlify.app/)
 
 ## Contributors
 -Hamdi Aden
