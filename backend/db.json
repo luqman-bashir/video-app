@@ -8,6 +8,15 @@
       "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg"
     },
     {
+<<<<<<< HEAD
+=======
+      "title": "Introduction to Reacts",
+      "description": "Getting started with React for beginners.",
+      "url": "https://www.youtube.com/watch?v=dGcsHMXbSOA",
+      "id": "5e6f"
+    },
+    {
+>>>>>>> e32356448e23adaf73e6869d2cbe36505983a2bb
       "title": "react",
       "description": "web development",
       "url": "https://www.youtube.com/watch?v=Rh3tobg7hEo",
@@ -57,7 +66,18 @@
       "title": "Reacts",
       "description": "React Tutorial for Beginners",
       "url": "https://www.youtube.com/watch?v=SqcY0GlETPk",
+<<<<<<< HEAD
       "id": "1e0c"
+=======
+      "thumbnail": "https://img.youtube.com/vi/SqcY0GlETPk/hqdefault.jpg"
+    },
+    {
+      "id": "b67e",
+      "title": "software engineering",
+      "description": "Fursadii aa Developer Ku Noqon Laheyd! OGAYSIIS CUSUB - Mentorship Program",
+      "url": "https://www.youtube.com/watch?v=6JhBisqpod8",
+      "thumbnail": "https://img.youtube.com/vi/6JhBisqpod8/hqdefault.jpg"
+>>>>>>> e32356448e23adaf73e6869d2cbe36505983a2bb
     }
   ]
 }

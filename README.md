@@ -10,6 +10,7 @@ A React-based application to manage and display educational videos. Users can ad
 - [Installation](#installation)
 - [Usage](#usage)
 - [API](#api)
+- [Live server](#live-server)
 - [Contributors](#contributors)
 - [License](#License)
 
@@ -124,5 +125,13 @@ Edit an existing video by updating its title, description, and url.
 
 Endpoint: DELETE /videos/:id
 Delete a video by ID.
+## Live server
+Watch the server live [video app](https://video-app-3b36e3.netlify.app/)
+
+## Contributors
+-Hamdi Aden
+-Luqman Bashir
+-Faith Njau
 
 ## License
+[MIT LICENSE](https://github.com/luqman-bashir/video-app/blob/master/LICENSE.MD)
