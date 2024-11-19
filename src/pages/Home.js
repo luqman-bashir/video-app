@@ -19,7 +19,7 @@ function Home({ searchQuery }) {
   };
 
   const fetchVideos = useCallback(() => {
-    fetch('http://localhost:3000/videos')
+    fetch('https://video-app-1-gjkx.onrender.com/videos')
       .then((response) => response.json())
       .then((data) => {
         const videosWithThumbnails = data.map(video => ({
@@ -41,7 +41,7 @@ function Home({ searchQuery }) {
       thumbnail: generateThumbnail(video.url),
     };
 
-    fetch('http://localhost:3000/videos', {
+    fetch('https://video-app-1-gjkx.onrender.com/videos', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(videoWithThumbnail),
@@ -58,7 +58,7 @@ function Home({ searchQuery }) {
   };
 
   const handleEditVideo = (updatedVideo) => {
-    fetch(`http://localhost:3000/videos/${updatedVideo.id}`, {
+    fetch(`https://video-app-1-gjkx.onrender.com/videos/${updatedVideo.id}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(updatedVideo),
@@ -75,7 +75,7 @@ function Home({ searchQuery }) {
   };
 
   const handleDeleteVideo = (videoId) => {
-    fetch(`http://localhost:3000/videos/${videoId}`, {
+    fetch(`https://video-app-1-gjkx.onrender.com/videos/${videoId}`, {
       method: 'DELETE',
     })
       .then(() => {
