@@ -8,13 +8,13 @@
       "thumbnail": "https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg"
     },
     {
-      "id": "5e6f",
-      "title": "Introduction to Reacts",
+      "title": "Introduction to React",
       "description": "Getting started with React for beginners.",
-      "url": "https://www.youtube.com/watch?v=dGcsHMXbSOA"
+      "url": "https://www.youtube.com/watch?v=dGcsHMXbSOA",
+      "id": "5e6f"
     },
     {
-      "title": "React",
+      "title": "Reacts",
       "description": "Web development",
       "url": "https://www.youtube.com/watch?v=Rh3tobg7hEo",
       "id": "cca9"
@@ -53,18 +53,10 @@
       "url": "https://www.youtube.com/watch?v=1PnVor36_40"
     },
     {
-      "id": "ae7f",
-      "title": "Java",
+      "title": "Javas",
       "description": "Learn Java in One Video - 15-minute Crash Course",
       "url": "https://www.youtube.com/watch?v=drQK8ciCAjY",
-      "thumbnail": "https://img.youtube.com/vi/drQK8ciCAjY/hqdefault.jpg"
-    },
-    {
-      "id": "1e0c",
-      "title": "Reacts",
-      "description": "React Tutorial for Beginners",
-      "url": "https://www.youtube.com/watch?v=SqcY0GlETPk",
-      "thumbnail": "https://img.youtube.com/vi/SqcY0GlETPk/hqdefault.jpg"
+      "id": "ae7f"
     }
   ]
 }
